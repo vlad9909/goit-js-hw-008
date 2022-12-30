@@ -3,7 +3,7 @@ import { galleryItems } from './gallery-items';
 // Change code below this line
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-console.log(galleryItems);
+// console.log(galleryItems);
 
 const galleryRef = document.querySelector('.gallery');
 // console.log(galleryRef);
@@ -28,3 +28,7 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
+
+const a = 'Vlad';
+
+console.log(a);
