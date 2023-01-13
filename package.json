@@ -5,7 +5,7 @@
   "homepage": "https://vlad9909.github.io/goit-js-hw-008",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-008/"
+    "build": "parcel build src/*.html"
   },
   "repository": {
     "type": "git",
